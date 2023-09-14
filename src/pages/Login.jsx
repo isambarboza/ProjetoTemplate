@@ -56,15 +56,15 @@ function Login() {
   return (
     <Container component="section" maxWidth="xs" >
         <Box 
-        sx={{ 
-            mt: 10,
-            backgroundColor: "#EDEDED",
-            padding: "30px",
-            borderRadius: "10px",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center"
-        }}
+            sx={{ 
+                mt: 10,
+                backgroundColor: "#EDEDED",
+                padding: "30px",
+                borderRadius: "10px",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center"
+            }}
         >
             <Typography component="h1" variant='h4'>Entrar</Typography>
             { erro && ( <Alert severity="warning" sx={{ mt: 2, mb: 2 }}>Revise seus dados e tente novamente</Alert> ) }
