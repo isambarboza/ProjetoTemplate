@@ -43,7 +43,7 @@ const theme = createTheme({
     success: {
       main: '#0ebd3a',
     },
-    divider: '#5109b3',
+    divider: '#253540',
     background: {
       default: '#ffebee',
       paper: '#ffebee',

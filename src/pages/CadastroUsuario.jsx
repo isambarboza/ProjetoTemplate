@@ -1,5 +1,6 @@
 import { Alert, Box, Button, Container, TextField, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
+import Menu from "../components/MenuResponsivo"
 
 function CadastroUsuario() {
 
@@ -53,7 +54,8 @@ function CadastroUsuario() {
   }, [ cadastro ] );
 
   return (
-    <Container component="section" maxWidth="sm">
+    
+    <Container component="section" maxWidth="sm">     
         <Box sx={{ 
             mt: 10,
             backgroundColor: "#EDEDED",
