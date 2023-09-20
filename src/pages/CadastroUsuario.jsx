@@ -55,6 +55,7 @@ function CadastroUsuario() {
 
   return (
     
+    
     <Container component="section" maxWidth="sm">     
         <Box sx={{ 
             mt: 10,
@@ -123,6 +124,7 @@ function CadastroUsuario() {
             </Box>
         </Box>
     </Container>
+    
   )
 }
 

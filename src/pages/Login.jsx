@@ -41,12 +41,13 @@ function Login() {
     } )
     .then( (resposta) => resposta.json() )
     .then( ( json ) => {
-
         if( json.user ) {
             setLogin( true );
             setUsuario( json.user );
+            localStorage.setItem( "usuario", JSON.stringify (json.user._id) );
         } else {
             setErro( true );
+            localStorage.setErro("usuario")
         }
     } )
     .catch( ( erro ) => {  setErro( true ) } )

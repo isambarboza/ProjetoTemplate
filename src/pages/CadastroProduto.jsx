@@ -33,7 +33,7 @@ function CadastroProduto() {
                         ano: ano,
                         duracao: duracao,
                         imagem: imagem,
-                        usuario: usuario
+                        usuario: localStorage.getItem( "usuario")
                     }
                 )
             })

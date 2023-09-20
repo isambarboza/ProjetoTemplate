@@ -102,7 +102,7 @@ function MenuResponsivo() {
             <Button
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: 'white', display: 'block' }}
-              href="/dashboard"
+              href="/dashboard/produtos"
             >
               Produtos
             </Button>
@@ -154,6 +154,7 @@ function MenuResponsivo() {
               <MenuItem onClick={handleCloseUserMenu}>
                 <Typography textAlign="center">Configurações</Typography>
               </MenuItem>
+             
             </Menu>
           </Box>
         </Toolbar>

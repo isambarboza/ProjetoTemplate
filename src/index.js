@@ -32,7 +32,7 @@ const theme = createTheme({
     },
     error: {
       main: '#ff3c00',
-      contrastText: '#ffebee',
+      contrastText: '#bdbdbd',
     },
     warning: {
       main: '#ffc80d',
@@ -45,8 +45,8 @@ const theme = createTheme({
     },
     divider: '#253540',
     background: {
-      default: '#ffebee',
-      paper: '#ffebee',
+      default: '#bdbdbd',
+      paper: '##bdbdbd',
     },
   },
   typography: {

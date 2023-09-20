@@ -2,7 +2,7 @@ import { Card, CardActions, CardContent, CardMedia, Typography, Button, Link } f
 
 function Produto(props) {
   return (
-    <Card sx={{ maxWidth: 345 }} key={props.key}>
+    <Card sx={{ maxWidth: 345, mt:6 }} key={props.key}>
         <CardMedia 
             sx={{ height: 140 }}
             image={props.imagem}

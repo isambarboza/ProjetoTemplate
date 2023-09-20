@@ -9,9 +9,11 @@ function App() {
 
     const[ produtos , setProdutos ] = useState();
     const[ erro, setErro ] = useState();
-    const [usuario, setUsuario] = useState(localStorage.getItem("usuario") || false);
+    let usuario = "";
 
     useEffect( () => {
+
+        usuario = localStorage.getItem("usuario");
 
         if( usuario ) {
             fetch( process.env.REACT_APP_BACKEND + "produtos/" + usuario, {
@@ -68,6 +70,7 @@ function App() {
 
     return (
         <>
+       
             <Container sx={{ display: "flex", gap: "2rem", flexWrap: "wrap" }} >
                 { erro && ( <span>{erro}</span>)}
                 { produtos && (
